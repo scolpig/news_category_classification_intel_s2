@@ -1,7 +1,11 @@
 import pandas as pd
 import glob
 import datetime
-
+# last_data = []
+# for i in range(6):
+#     data_path = glob.glob('./crawling_data/data_{}*'.format(i))[-1]
+#     last_data.append(data_path)
+# print(last_data)
 data_path = glob.glob('./crawling_data/*')
 print(data_path)
 
